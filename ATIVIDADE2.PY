@@ -1,0 +1,15 @@
+lista = ['Brasil', 'Argentina', 'Uruguai', 'Paraguai']
+
+print('Lista original: {}'.format(lista))
+print('Foram encontrados {} elementos na lista original.'.format(len(lista)))
+print("Foi encontrada {} ocorrência de 'Paraguai' na lista original.".format(lista.count('Paraguai')))
+print("O terceiro elemento encontrado na lista original foi: {}".format(lista[2]))
+lista.insert(2,'México')
+print("Foi adicionado {} no índice 2 da lista original: {}".format(lista[2], lista))
+lista.sort()
+print("Nova lista ordernada: {}".format(lista))
+print("O país 'França' foi localizado na lista: {}".format('França' in lista))
+lista.remove('Brasil')
+print("O país 'Brasil' foi removido da lista: {}".format(lista))
+lista.reverse()
+print("A lista foi invertida: {}".format(lista))
